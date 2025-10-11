@@ -1,0 +1,11 @@
+class Student:
+    def __init__(self, name="Unknown"):   # default value diya
+        self.name = name
+
+# object with default constructor
+s1 = Student()  
+print("Default Constructor:", s1.name)   # Unknown
+
+# object with parameterized constructor
+s2 = Student("Karan Kumar")
+print("Parameterized Constructor:", s2.name)  # Karan Kumar
