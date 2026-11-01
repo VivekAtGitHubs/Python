@@ -1,8 +1,8 @@
-str1="my name"
-len1=len(str1)
+x="my name"
+len1=len(x)
 print(len1)
-str2=" is vivek yadav"
-len2=len(str2)
+y =" is vivek yadav"
+len2=len(y)
 print(len2)
-final_str=str1+str2
+final_str=x+y
 print(final_str)

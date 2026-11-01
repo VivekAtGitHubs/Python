@@ -6,6 +6,7 @@ student={
         "maths":80,
     }
 }
-new_dict={"name":"vivek shukla",}
+new_dict={"name":"vivek yadav",}
+#dict.update( ) used to update the Dictionary
 student.update(new_dict)
 print(student)

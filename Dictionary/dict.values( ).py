@@ -6,4 +6,5 @@ student={
         "maths":80,
     }
 }
+#dict.values() return all value stored in a dictionary
 print(student.values())

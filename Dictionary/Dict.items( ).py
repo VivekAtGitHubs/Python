@@ -6,4 +6,5 @@ student={
         "maths":80,
     }
 }
+#dict.items() return key value Pairs
 print(student.items())

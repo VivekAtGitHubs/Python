@@ -1,10 +1,9 @@
-marks = int(input("Enter student marks:"))
-if marks >= 90:
-    grade = "A"
-elif marks >= 80 and marks < 90:
-    grade = "B"
-elif marks >= 70 and marks < 80:
-    grade = "C"
+marks = int(input("enter the marks"))
+if marks >=90 :
+    print("excellent")
+elif marks>=70 :
+    print("good")
+elif marks>=45:
+    print("not bad")
 else:
-    grade = "D"
-print("Grade of the student ->", grade)
+    print("you are fail")    

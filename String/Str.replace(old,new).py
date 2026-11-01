@@ -1,2 +1,2 @@
-str=" i am studying python from  my college"
-print(str.replace("o","a"))
+s = "This is bad code with bad habits"
+print(s.replace("bad", "good"))

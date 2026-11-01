@@ -1,5 +1,5 @@
-x=int(input("enter number:"))
-if(x%7==0):
-    print("multiple of 7")
+x = int(input("enter the marks"))
+if x%7==0 :
+    print("multiple of 7",x)
 else:
-    print("not a multiple of 7")
+    print("not Divisible of 7",x)

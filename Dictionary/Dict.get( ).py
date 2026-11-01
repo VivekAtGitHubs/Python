@@ -7,4 +7,5 @@ student={
     }
 }
 print(student["name"])
+#dict.get used to access safely  using its key
 print(student.get("name"))
