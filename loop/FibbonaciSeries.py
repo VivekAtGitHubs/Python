@@ -1,5 +1,11 @@
 #5Fibbonacci series sequence in which each number is sum of previous btwo numbers
-n=int(input("enter  number of terms"))
+# 5
+
+
+
+
+
+n=int(input("enter the number"))
 a=0
 b=1
 for i in range(n):

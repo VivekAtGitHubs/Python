@@ -1,5 +1,5 @@
 for num in range(1, 101):
-    temp = num
+    temp = num # creating copies
     rev = 0
     while temp > 0:
         digit = temp % 10
